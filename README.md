@@ -67,7 +67,9 @@ This repository includes an educational implementation of an AI-assisted dental 
 python src/ai_radiology_demo.py
 ```
 
-The demo trains a small machine-learning classifier on synthetic radiographic patches, scans a synthetic bitewing-style image, creates a probability heatmap, and flags suspicious radiolucent regions for clinician review.
+The demo trains a small machine-learning classifier on synthetic radiographic patches, scans a synthetic bitewing-style image, creates a probability heatmap, and flags suspicious interproximal radiolucent regions for clinician review.
+
+The synthetic example is designed around posterior bitewing interpretation: suspected class II-style caries are placed between teeth near proximal contact areas, not in the middle of the tooth.
 
 Main output:
 

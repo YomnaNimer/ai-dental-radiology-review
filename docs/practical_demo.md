@@ -19,6 +19,18 @@ Real AI tools in dental radiology often work by detecting patterns in radiograph
 
 This demo mirrors that concept in a simplified and transparent way.
 
+## Bitewing and Class II Caries Design
+
+The synthetic image was designed to better match the clinical idea of bitewing radiographs:
+
+- posterior upper and lower crowns are shown
+- the occlusal surfaces are visible
+- proximal contacts are visible between teeth
+- suspected class II-style lesions are placed interproximally, not in the middle of the tooth
+- suspicious regions are drawn as triangular radiolucencies near contact areas
+
+This is important because bitewing radiographs are commonly used to evaluate proximal/interproximal caries in posterior teeth.
+
 ## What The Script Does
 
 The script `src/ai_radiology_demo.py`:
