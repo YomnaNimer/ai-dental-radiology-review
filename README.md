@@ -48,6 +48,7 @@ ai-dental-radiology-review/
 - Draft review protocol
 - Search strategy
 - Narrative mini-review draft
+- Practical AI-assisted radiology demo using a synthetic bitewing-style example
 
 ## Skills Demonstrated
 
@@ -56,6 +57,29 @@ ai-dental-radiology-review/
 - AI and dental radiology topic mapping
 - Critical appraisal of clinical relevance and limitations
 - GitHub documentation for a research portfolio
+- Practical machine-learning workflow for radiograph-like image analysis
+
+## Practical Implementation Demo
+
+This repository includes an educational implementation of an AI-assisted dental radiology workflow:
+
+```bash
+python src/ai_radiology_demo.py
+```
+
+The demo trains a small machine-learning classifier on synthetic radiographic patches, scans a synthetic bitewing-style image, creates a probability heatmap, and flags suspicious radiolucent regions for clinician review.
+
+Main output:
+
+```text
+figures/ai_radiology_demo_workflow.png
+```
+
+![AI-assisted dental radiology workflow demo](figures/ai_radiology_demo_workflow.png)
+
+Important: this is a portfolio and education demo only. It does not use real patient data and must not be used for diagnosis.
+
+More detail: `docs/practical_demo.md`
 
 ## Planned Next Steps
 
